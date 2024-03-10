@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_brainwave"
+            android:icon="@drawable/baseline_waves_24"
+            android:title="Brainwave Fourier Data" />
+        <item
+            android:id="@+id/nav_brainwave_fourier"
+            android:icon="@drawable/baseline_waves_24"
+            android:title="Brainwave Raw Data" />
+        <item
+            android:id="@+id/nav_index"
+            android:icon="@drawable/baseline_safety_check_24"
+            android:title="Calibration" />
+        <item
+            android:id="@+id/nav_meter"
+            android:icon="@drawable/baseline_mood_24"
+            android:title="Mood Meter" />
+    </group>
+</menu>
